@@ -1,7 +1,6 @@
 @import 'background';
 @import "searchfield";
 @import "search-view";
-
-.red {
-  border: none;
-}
+@import "weather-data";
+@import "error-tooltip";
+@import "font";
