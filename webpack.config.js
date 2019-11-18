@@ -45,6 +45,22 @@ let conf = {
                     { loader: 'css-loader', options: { sourceMap: true, importLoaders: 1 } },
                     { loader: 'sass-loader', options: { sourceMap: true } },
                 ],
+            },
+            {
+                test: /\.js$/,
+                exclude: [path.resolve(__dirname,"node_modules")],
+                loader: "babel-loader",
+                options: {
+                    babelrc: false
+                }
+            },
+            {
+                test: /\.jsx?$/,
+                loader: "babel-loader",
+                exclude: [path.resolve(__dirname,"node_modules")],
+                options: {
+                    babelrc: false
+                }
             }
         ]
     },

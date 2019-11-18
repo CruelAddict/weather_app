@@ -1,9 +1,7 @@
-import {setSearchfieldEvents} from './searchfield'
+import Searchfield from './searchfield'
 
-export default class {
+export default class App {
     constructor() {
-        $(
-            setSearchfieldEvents()
-        );
+        Searchfield.setSearchfieldEvents();
     }
 };
