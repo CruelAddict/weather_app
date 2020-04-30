@@ -50,7 +50,7 @@
     "@babel/polyfill": "^7.7.0",
     "@babel/runtime": "^7.7.1",
     "babel-loader": "^8.0.6",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mock-xmlhttprequest": "^5.1.0",
     "moment": "^2.24.0",
     "sinon-server": "^0.2.0"
